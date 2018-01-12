@@ -66,6 +66,7 @@ public class AdapterMascota extends RecyclerView.Adapter<AdapterMascota.MascotaV
                 @Override
                 public void onClick(View view) {
                     eliminar(Integer.parseInt(itemId.getText().toString()));
+                    //esta instruccion actualiza el recyclerView
                     notifyDataSetChanged();
                 }
             });
