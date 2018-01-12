@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roman.juevesdb.NuevaMascotaFragment">
+
+    <EditText
+        android:id="@+id/txtNuevoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="mascota"
+        />
+
+    <EditText
+        android:id="@+id/txtNuevoRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="raza"
+        />
+    <Spinner
+        android:id="@+id/txtNuevoGenero"
+        android:entries="@array/generos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/txtNuevoPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="peso ej: 2.5"
+        />
+
+    <Button
+        android:id="@+id/btNuevoAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="guardar"
+        />
+
+
+</LinearLayout>
